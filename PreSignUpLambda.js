@@ -6,8 +6,8 @@ exports.handler = async (event, context) => {
   console.log("Running presignup lambda...");
   console.log("processing event: %j", event);
 
-  const TableName = "User-or2wpavvmbatbhfn7vwoynk4c4-dev";
-  const IndexName = "findUsername";
+  const TableName = "<TableName>";
+  const IndexName = "<IndexName>";
 
   const username = event.request.validationData.username
   console.log("username from event: " + username);
